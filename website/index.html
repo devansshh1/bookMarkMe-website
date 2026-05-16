@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMarkMe for ChatGPT</title>
+    <meta
+      name="description"
+      content="Stop getting lost in long chats. Instantly bookmark any prompt or response in ChatGPT and jump back to it with one click."
+    />
+    <meta name="theme-color" content="#0d111a" />
+    <meta property="og:title" content="BookMarkMe for ChatGPT" />
+    <meta
+      property="og:description"
+      content="Instantly bookmark prompts and responses in ChatGPT, then jump back without losing your place."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/brand-mark.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png" />
+    <link rel="apple-touch-icon" href="assets/icon-128.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="BookMarkMe home">
+          <img src="assets/brand-mark.svg" alt="" width="40" height="40" />
+          <span>BookMarkMe for ChatGPT</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#highlights">Highlights</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#why">Why BookMarkMe</a>
+        </nav>
+        <a
+          class="button button-primary button-nav"
+          href="https://chromewebstore.google.com/detail/bookmarkme-for-chatgpt/gnghonhkhjhhioekpnmeaggeimhnmjkf?authuser=0&hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Add to Chrome
+        </a>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">ChatGPT navigation, finally fixed</p>
+            <h1>Stop getting lost in long chats.</h1>
+            <p class="hero-text">
+              Instantly bookmark any prompt or response and jump back to it with one click. Built for
+              people who use ChatGPT like a real workspace, not a disposable chat box.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                href="https://chromewebstore.google.com/detail/bookmarkme-for-chatgpt/gnghonhkhjhhioekpnmeaggeimhnmjkf?authuser=0&hl=en"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Add to Chrome
+              </a>
+              <a class="button button-secondary" href="#how-it-works">See how it works</a>
+            </div>
+            <ul class="trust-strip" aria-label="Product assurances">
+              <li>Stored locally on your device</li>
+              <li>No data collection</li>
+              <li>Works inside ChatGPT</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" data-reveal>
+            <div class="visual-orb orb-one"></div>
+            <div class="visual-orb orb-two"></div>
+            <div class="mockup-scene">
+              <article class="browser-mockup">
+                <div class="browser-bar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="browser-address">chatgpt.com/c/important-thread</div>
+                </div>
+                <div class="chat-surface">
+                  <div class="chat-row chat-row-user">
+                    <div class="chat-bubble chat-bubble-user">Summarize the architecture decisions from earlier.</div>
+                  </div>
+                  <div class="chat-row">
+                    <div class="chat-block">
+                      <div class="chat-label">Saved response</div>
+                      <div class="chat-title">Architecture summary</div>
+                      <div class="chat-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <button class="save-pill" type="button">Save chat</button>
+                  </div>
+                  <div class="chat-row">
+                    <div class="chat-lines wide">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <aside class="panel-mockup">
+                <div class="panel-head">
+                  <div>
+                    <p class="panel-kicker">BOOKMARKME</p>
+                    <h2>2 bookmarks</h2>
+                  </div>
+                  <button type="button">Refresh</button>
+                </div>
+                <div class="bookmark-card">
+                  <h3>Architecture summary</h3>
+                  <p>
+                    System decisions, API tradeoffs, rollout notes, and the migration plan for the next release.
+                  </p>
+                  <span>Jump in one click</span>
+                </div>
+                <div class="bookmark-card muted">
+                  <h3>SQL examples</h3>
+                  <p>Maximum purchase amount, customer queries, and grouped answers for exam prep.</p>
+                  <span>Saved locally</span>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section id="highlights" class="section section-grid">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Highlights</p>
+            <h2>Everything you need to navigate massive ChatGPT threads</h2>
+            <p>
+              No messy exports, no manual hunting, no losing the one answer you needed buried 200 messages above.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card" data-reveal>
+              <span class="feature-index">01</span>
+              <h3>One-Click Anchors</h3>
+              <p>Bookmark any prompt or response the moment you know it matters.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <span class="feature-index">02</span>
+              <h3>Smart Navigation</h3>
+              <p>Jump straight back to saved messages without manually scrolling through long threads.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <span class="feature-index">03</span>
+              <h3>Persistent Context</h3>
+              <p>Your bookmarks stay available even after refreshes, tab closes, or returning days later.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <span class="feature-index">04</span>
+              <h3>Modern Sidebar UI</h3>
+              <p>A clean side panel that stays open while you work and never overwhelms the conversation.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <span class="feature-index">05</span>
+              <h3>Deep Search</h3>
+              <p>Find the exact bookmark you need by name, even inside threads with hundreds of messages.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="how-it-works" class="section workflow">
+          <div class="section-heading compact" data-reveal>
+            <p class="eyebrow">How it works</p>
+            <h2>Four steps. Zero friction.</h2>
+          </div>
+          <div class="steps">
+            <article class="step-card" data-reveal>
+              <span class="step-number">1</span>
+              <h3>Open ChatGPT</h3>
+              <p>Start your conversation exactly as you normally would.</p>
+            </article>
+            <article class="step-card" data-reveal>
+              <span class="step-number">2</span>
+              <h3>Open BookMarkMe</h3>
+              <p>Launch the sidebar from the extension and keep it open while you work.</p>
+            </article>
+            <article class="step-card" data-reveal>
+              <span class="step-number">3</span>
+              <h3>Save the important part</h3>
+              <p>Click the bookmark control next to any message you want to come back to.</p>
+            </article>
+            <article class="step-card" data-reveal>
+              <span class="step-number">4</span>
+              <h3>Jump back instantly</h3>
+              <p>Select the bookmark from your list and return to that exact point in the conversation.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="privacy" class="section split-section">
+          <div class="section-heading compact" data-reveal>
+            <p class="eyebrow">Privacy &amp; Security</p>
+            <h2>Your chats stay yours.</h2>
+            <p>
+              BookMarkMe is designed to be useful without becoming another tool that wants to inspect or store your work.
+            </p>
+          </div>
+          <div class="privacy-panel" data-reveal>
+            <article>
+              <h3>Stored locally</h3>
+              <p>All bookmarks are saved directly on your device using Chrome storage.</p>
+            </article>
+            <article>
+              <h3>No data collection</h3>
+              <p>We never see, transmit, or store your chat content.</p>
+            </article>
+            <article>
+              <h3>Minimal permissions</h3>
+              <p>Access is limited to `chatgpt.com` so navigation features work where you actually need them.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="why" class="section why-section">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Why BookMarkMe</p>
+            <h2>Built for people who treat ChatGPT like a serious productivity tool</h2>
+            <p>
+              Whether you are debugging long scripts, researching an idea, writing technical notes, or iterating through
+              a complex project, BookMarkMe keeps the important moments instantly reachable.
+            </p>
+          </div>
+          <div class="audience-grid">
+            <article class="audience-card" data-reveal>
+              <h3>Developers</h3>
+              <p>Pin architecture notes, code explanations, SQL answers, and debugging checkpoints without losing flow.</p>
+            </article>
+            <article class="audience-card" data-reveal>
+              <h3>Researchers</h3>
+              <p>Capture key insights, references, and summaries while exploring long, layered conversations.</p>
+            </article>
+            <article class="audience-card" data-reveal>
+              <h3>Power users</h3>
+              <p>Turn ChatGPT from a stream of answers into an organized workspace you can actually navigate.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section final-cta" data-reveal>
+          <div class="cta-panel">
+            <div>
+              <p class="eyebrow">Ready to install?</p>
+              <h2>Bring structure to your ChatGPT workflow.</h2>
+            </div>
+            <a
+              class="button button-primary"
+              href="https://chromewebstore.google.com/detail/bookmarkme-for-chatgpt/gnghonhkhjhhioekpnmeaggeimhnmjkf?authuser=0&hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Add to Chrome
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <img src="assets/brand-mark.svg" alt="" width="28" height="28" />
+          <span>BookMarkMe for ChatGPT</span>
+        </div>
+        <p>Bookmark what matters. Jump back instantly. Keep your context under control.</p>
+        <a
+          href="https://chromewebstore.google.com/detail/bookmarkme-for-chatgpt/gnghonhkhjhhioekpnmeaggeimhnmjkf?authuser=0&hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View on Chrome Web Store
+        </a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
